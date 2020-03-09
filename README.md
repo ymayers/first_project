@@ -22,9 +22,9 @@ MVP - Working button to display API data (the activities) via DOM manipulation a
 Post MVP - User Input for activity type and price point search, animation of the robot and different div designs for each activity.
 
 Wireframes
-!(WebWireFrame1)(https://imgur.com/tbimZIq.png);
-!(WebWireFrame2)(https://imgur.com/8Sr75C8.png);
-!(iPadWireFrame1)(https://imgur.com/ZFVuqPp.png);
-!(iPadWireFrame2)(https://imgur.com/bfHlEKn.png);
-!(iPhoneWireFrame1)(https://imgur.com/9LJ78BA.png);
-!(iPhoneWireFrame2)(https://imgur.com/nk5GDkw.png);
+![WebWireFrame1](https://imgur.com/tbimZIq.png);
+![WebWireFrame](https://imgur.com/8Sr75C8.png);
+![iPadWireFrame1](https://imgur.com/ZFVuqPp.png);
+![iPadWireFrame2](https://imgur.com/bfHlEKn.png);
+![iPhoneWireFrame1](https://imgur.com/9LJ78BA.png);
+![iPhoneWireFrame2](https://imgur.com/nk5GDkw.png);
