@@ -3,7 +3,6 @@ const display = document.querySelector(".display");
 const price = document.querySelector(".price");
 button.addEventListener("click", async () => {
   const response = await axios.get(`https://www.boredapi.com/api/activity/`);
-  debugger;
   const displayNew = response.data.activity;
   display.innerHTML = displayNew;
   const cost = response.data.price;

@@ -11,7 +11,7 @@ https://www.boredapi.com/
 
 With one click, you’ll have an activity suggestion and tips/resources on how to go about completing that specific activity.
 
-I plan on having a CSS robot(possibly animated) and each activity having it’s own fun themed div background.
+I plan on having a CSS robot and each activity having it’s own fun themed div background.
 
 There are 9 categories/types ["education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"] and price points range from free(0.0) 1.0; so, I am currently gauging how this should be conveyed to the user. I’m thinking that I should use “Free”, “Fair” and “Moderate” price points, since floats aren't user friendly.
 
@@ -22,9 +22,15 @@ MVP - Working button to display API data (the activities) via DOM manipulation a
 Post MVP - User Input for activity type and price point search, animation of the robot and different div designs for each activity.
 
 Wireframes
+
+Web
 ![WebWireFrame1](https://imgur.com/tbimZIq.png);
 ![WebWireFrame](https://imgur.com/8Sr75C8.png);
+
+iPad
 ![iPadWireFrame1](https://imgur.com/ZFVuqPp.png);
 ![iPadWireFrame2](https://imgur.com/bfHlEKn.png);
+
+iPhone
 ![iPhoneWireFrame1](https://imgur.com/9LJ78BA.png);
 ![iPhoneWireFrame2](https://imgur.com/nk5GDkw.png);
