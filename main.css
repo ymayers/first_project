@@ -1,71 +1,98 @@
+/*FOR BODY OF DOCUMENT */
+
 body {
-  padding: 1em;
   margin: 0 auto;
-  background: radial-gradient(#fea300, #d99789);
   display: flex;
   flex-flow: column;
   align-items: center;
 }
 
+/* HERO HEADER */
+
 h1 {
+  background-color: radial-gradient(white lightgray);
+  color: darkslategrey;
+  border: 15px solid white;
   font-size: 5em;
   padding: 0.5em;
   font-family: "Permanent Marker", cursive;
-  background: #03658c;
-  height: 20%;
+  height: 10%;
   width: 100%;
-  margin: 0 8em;
-  border: 4px solid slategray;
-  border-radius: 2px;
+  margin: 0.5em 10em;
   text-align: center;
 }
+
+/* BUTTON ON ROBOT TORSO */
 
 button {
   padding: 0.5em;
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
+  font-size: 1em;
   color: antiquewhite;
   background: radial-gradient(lightgray, darkslategray);
-  border: 4px solid lightslategray;
+  border: 4px groove lightslategray;
   margin: 30%;
   border-radius: 20px;
 }
 button:hover {
   color: darkorange;
   cursor: pointer;
-  border: 3px solid white;
+  border: 3px groove white;
 }
 
+/* CONTAINER FOR ROBOT */
+
 .robot {
-  margin: 0 auto;
+  border: 8px solid oldlace;
+  border-bottom: 12px dashed oldlace;
+  margin: 0.75em 0 0 0;
   display: flex;
   flex-flow: column;
   height: 25%;
-  width: 30%;
+  width: 50%;
   padding-top: 5em;
 }
+
+/* ROBOT'S HEAD */
+
+.antenna {
+  border-left: 10px groove silver;
+  border-right: 10px groove silver;
+  height: 40px;
+  width: 25.5%;
+  margin: -1em 10em 0 15em;
+  border-radius: 7px;
+}
+
 .headtop {
-  margin: 0 0 -2em 4.6em;
+  margin: -15% 0 -5% 35%;
   padding-top: 1em;
-  background: linear-gradient(lightgray, slategray);
+  background: radial-gradient(lightgray, slategray);
   height: 3em;
-  width: 16em;
+  width: 11em;
   border-radius: 100%;
   border: 3px solid darkgray;
 }
 
+/* ROBOT'S FACE */
+
 #head {
   padding: 0 10px 10px 10px;
-  margin-left: 4.5em;
-  background: slategray;
-  height: 10em;
-  width: 15em;
+  margin: 0 0 0.15% 35%;
+  background: linear-gradient(
+    to left,
+    lightslategray 5%,
+    lightgray 35%,
+    lightslategray 65%
+  );
+  height: 5em;
+  width: 10em;
   border-radius: 8px;
   border: 2px solid darkgray;
 }
 
 .eye {
-  margin: -1em 5.5em 1em 5.5em;
+  margin: -1em 3em 1em 3em;
   width: 3em;
   padding: 5px;
   height: 40%;
@@ -74,100 +101,117 @@ button:hover {
   background: white;
 }
 .pupil {
-  margin: 1em 0 2em 0em;
-  width: 2em;
+  margin: 0.25em 0 0 0.5em;
+  width: 1em;
   padding: 5px;
   height: 25%;
   border-radius: 100%;
   border: 4px solid lightslategray;
   background: radial-gradient(red, white);
 }
+.pupil:hover {
+  background: radial-gradient(white, red);
+}
 .mouth {
-  margin: 2em 8em 0em 4em;
-  width: 6em;
+  margin: 0 8em 0em 4em;
+  width: 1.25em;
   padding: 4px;
-  height: 22%;
+  height: 15%;
   border-radius: 3px;
-  border: 9px solid lightslategray;
+  border: 5px solid lightslategray;
   background: darkgray;
 }
 
 .teeth {
-  padding-left: 0.75em;
-  margin: 2em 0;
-  width: 5em;
+  margin: 0.5em 0 0 -0.25em;
+  width: 1.5em;
   height: 10%;
   border-radius: 3px;
   border: 2px solid red;
   background: whitesmoke;
 }
 
+/******************/
+/* ROBOT'S TORSO */
+/******************/
+
 .robot_body {
-  border-radius: 14px;
-  border: 2px solid darkgray;
-  height: 20em;
-  width: 25em;
-  background: linear-gradient(slategray, lightgray);
+  margin: 0 0 0 25%;
+  border-radius: 30px;
+  border: 3px solid darkgray;
+  height: 15em;
+  width: 20em;
+  background: linear-gradient(lightslategray, slategray, lightgray);
 }
+
 .l_arm {
-  position: relative;
-  margin: -15em 0em 13em -13em;
-  border: 2px solid #f2ae30;
+  margin: -15em 0em 13em 0em;
+  border: 4px double #f2ae30;
+  border-left: none;
   background: transparent;
-  width: 75%;
+  width: 5em;
   height: 2em;
   border-radius: 6px;
 }
 
 .l_hand {
-  margin: 0 4.5em 0 4.5em;
+  margin: -1.25em 0em 0 -7em;
   padding: 1em;
   background: transparent;
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 200px solid slategray;
+  border-left: 40px dashed transparent;
+  border-right: 40px dashed transparent;
+  border-top: 200px solid lightslategray;
 }
-.r_hand {
-  margin: 0 7em 0 7em;
-  padding: 1em;
-  background: transparent;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 200px solid slategray;
-}
+
 .r_arm {
-  position: relative;
-  margin: -15em 0 13em 18em;
-  border: 2px solid #f2ae30;
+  margin: -15em 0 13em 15em;
+  border: 4px double #f2ae30;
+  border-right: none;
   background: transparent;
-  width: 75%;
+  width: 5em;
   height: 2em;
   border-radius: 6px;
 }
+.r_hand {
+  margin: -1.5em 5em 0 4.75em;
+  padding: 1em;
+  background: transparent;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 200px solid lightslategray;
+}
+
+/******************/
+/* ROBOT'S WHEEL */
+/******************/
 
 .foot {
-  padding: 2em;
-  margin: -3em 8.5em 0 8.5em;
-  width: 4.5em;
-  height: 6em;
+  padding: 3em;
+  margin: -4em 5.5em 0 5.5em;
+  width: 4em;
+  height: 2em;
   border-radius: 100%;
-  border: 8px dashed darkgray;
-  background: slategrey;
+  border: 5px dashed darkgray;
+  background: silver;
 }
 
 .inner_foot {
-  padding: 1.75em;
-  margin: -1em 0em 0 -0.5em;
-  width: 2em;
+  margin-top: -1.5em;
+  margin-right: -1em;
+  width: 4em;
   height: 4em;
   border-radius: 100%;
-  border: 4px solid darkgray;
+  border: 5px solid gray;
   background: radial-gradient(lightslategray, darkgray);
 }
+
+/************************/
+/*DISPLAY FOR ACTIVITIES/
+/************************/
 
 .display {
   font-family: "Nanum Pen Script", cursive;
@@ -175,15 +219,20 @@ button:hover {
   background: #fea300;
   height: 100%;
   width: 90%;
-  margin: 3em 10em 0 10em;
+  margin: 1em 10em 0 10em;
   border: 4px solid slategray;
   border-radius: 6px;
   text-align: center;
 }
 
+/**********************/
+/*PRICE RANGE DISPLAY*/
+/*********************/
+
 .price {
+  padding: 0.1em;
   font-family: "Nanum Pen Script", cursive;
-  font-size: 35px;
+  font-size: 30px;
   background: #fea300;
   height: 20%;
   width: 6%;
