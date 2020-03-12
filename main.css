@@ -14,6 +14,7 @@ h1 {
   color: rgb(168, 184, 184);
   border: 15px solid white;
   border-bottom: 15px double white;
+  border-right: none;
   font-size: 5em;
   padding: 0.1em;
   font-family: "Permanent Marker", cursive;
@@ -261,4 +262,37 @@ footer {
   border: 2.5px solid slategray;
   border-radius: 2px;
   text-align: center;
+}
+/* for iPhone*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .robot {
+    margin: 0 auto;
+  }
+  .robot_body {
+    margin: 0 -2em 0 -2em;
+    width: 15em;
+  }
+  .l_hand {
+    margin: 0 0 0 -80px;
+    padding: 0;
+  }
+  .r_hand {
+    padding: 0;
+    margin: 0 0 0 80px;
+  }
+  .r_arm {
+    margin: -240px 0 208px 160px;
+  }
+  .foot {
+    margin: -3em 3em 4em 3em;
+    width: 3em;
+    height: 1.5em;
+  }
+
+  .inner_foot {
+    margin: -1em -1em 0 -0.75em;
+    width: 4em;
+    height: 4em;
+  }
 }
