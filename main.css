@@ -1,6 +1,7 @@
 /*FOR BODY OF DOCUMENT */
 
 body {
+  background-color: rgb(66, 32, 63);
   margin: 0 auto;
   display: flex;
   flex-flow: column;
@@ -10,17 +11,17 @@ body {
 /* HERO HEADER */
 
 h1 {
-  background-color: radial-gradient(white lightgray);
-  color: darkslategrey;
+  color: rgb(168, 184, 184);
   border: 15px solid white;
   border-bottom: 15px double white;
   font-size: 5em;
-  padding: 0.5em;
+  padding: 0.1em;
   font-family: "Permanent Marker", cursive;
-  height: 10%;
+  height: 8%;
   width: 100%;
-  margin: 0.5em 10em;
   text-align: center;
+  margin-top: -0.1em;
+  margin-bottom: 1em;
 }
 
 /* BUTTON ON ROBOT TORSO */
@@ -44,18 +45,20 @@ button:hover {
 /* CONTAINER FOR ROBOT */
 
 .robot {
+  position: relative;
   border: 8px solid oldlace;
-  border-bottom: 12px dashed oldlace;
-  margin: 0.75em 0 0 0;
+  border-bottom: 12px double oldlace;
+  margin: 1em 4em 0 4em;
   display: flex;
   flex-flow: column;
   height: 25%;
   width: 50%;
-  padding-top: 5em;
+  padding-top: 6em;
 }
 
 /* ROBOT'S HEAD */
 
+/* these are really his ears - need to change name */
 .antenna {
   border-left: 10px groove silver;
   border-right: 10px groove silver;
@@ -137,7 +140,8 @@ button:hover {
 /******************/
 
 .robot_body {
-  margin: 0 0 0 25%;
+  padding: 10px 0px;
+  margin: 0 11.5em 0 11.5em;
   border-radius: 30px;
   border: 3px solid darkgray;
   height: 15em;
@@ -192,7 +196,7 @@ button:hover {
 
 .foot {
   padding: 3em;
-  margin: -4em 5.5em 0 5.5em;
+  margin: -4em 16em 0 16em;
   width: 4em;
   height: 2em;
   border-radius: 100%;

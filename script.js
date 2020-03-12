@@ -46,8 +46,8 @@ button.addEventListener("click", async () => {
     backGround.style.backgroundImage =
       "url(https://i.pinimg.com/originals/ba/5b/0f/ba5b0fdac39297a199e4d9ad9c708e29.gif)";
     display.style.backgroundColor = "lightgreen";
-    display.style.borderColor = "slategray";
-    hero.style.color = "lightgreen";
+    display.style.borderColor = "lightpink";
+    hero.style.color = "lightpink";
     hero.style.borderColor = "lightgreen";
   } else if (display.innerText === "Make origami") {
     backGround.style.backgroundImage = "url(https://imgur.com/xD8XeHM.gif)";
@@ -211,8 +211,7 @@ button.addEventListener("click", async () => {
     hero.style.color = "white";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Watch the sunset or sunrise") {
-    backGround.style.backgroundImage =
-      "url(https://thumbs.gfycat.com/SelfassuredPopularAtlanticspadefish-size_restricted.gif)";
+    backGround.style.backgroundImage = "url()";
     display.style.backgroundColor = "white";
     display.style.borderColor = "white";
     hero.style.color = "white";
@@ -407,7 +406,7 @@ button.addEventListener("click", async () => {
       "url(https://thumbs.gfycat.com/HotWarmIsabellinewheatear-max-1mb.gif)";
     display.style.backgroundColor = "lightblue";
     display.style.borderColor = "antiquewhite";
-    hero.style.color = "lightblue";
+    hero.style.color = "darkblue";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Play a game of tennis with a friend") {
     backGround.style.backgroundImage =
@@ -449,7 +448,7 @@ button.addEventListener("click", async () => {
       "url(https://66.media.tumblr.com/0be29b62ae162b62e0504204e8834150/tumblr_oao8nnlV8a1tyslwao2_540.gifv)";
     display.style.backgroundColor = "white";
     display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
+    hero.style.color = "khaki";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Learn to play a new instrument") {
     backGround.style.backgroundImage =
@@ -477,7 +476,7 @@ button.addEventListener("click", async () => {
       "url(https://78.media.tumblr.com/c871fe43d7c1cbe39b336bbd3e80334f/tumblr_nvh125efiK1rrvheyo1_400.gif)";
     display.style.backgroundColor = "white";
     display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
+    hero.style.color = "lightyellow";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Go to a karaoke bar with some friends") {
     backGround.style.backgroundImage =
@@ -490,8 +489,8 @@ button.addEventListener("click", async () => {
     backGround.style.backgroundImage =
       "url(https://68.media.tumblr.com/a4d43db9cececf0af306e203cb15948d/tumblr_ocl6rxNuNR1uh70wdo1_400.gif)";
     display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
+    display.style.borderColor = "red";
+    hero.style.color = "red";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Go to an escape room") {
     backGround.style.backgroundImage =
@@ -509,53 +508,61 @@ button.addEventListener("click", async () => {
     display.style.borderColor = "antiquewhite";
     hero.style.color = "antiquewhite";
     hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
+  } else if (display.innerText === "Volunteer at a local animal shelter") {
+    backGround.style.backgroundImage =
+      "url(https://mymodernmet.com/wp/wp-content/uploads/archive/foC98yIgXngXh9sHdyAy_DogTales2.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "pink";
+    hero.style.color = "pink";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn woodworking") {
+    backGround.style.backgroundImage =
+      "url(https://blogs.ou.edu/webcomm/files/2015/09/tumblr_n7bk0vKVyG1s2wio8o1_500-28qpayu.gif)";
     display.style.backgroundColor = "white";
     display.style.borderColor = "antiquewhite";
     hero.style.color = "antiquewhite";
     hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
+  } else if (display.innerText === "Go to the gym") {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/27IUDmKCXgLZoUNaXQ/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "yellow";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Try a food you don't like") {
+    backGround.style.backgroundImage =
+      "url(https://i.pinimg.com/originals/f1/77/1c/f1771caa87433884a4a8d38fc89ccccd.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "yellow";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn GraphQL") {
+    backGround.style.backgroundImage =
+      "url(https://thumbs.gfycat.com/ImpoliteMediumLamprey-size_restricted.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "black";
+  } else if (display.innerText === "Repaint a room in your house") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/B3V78HyP1I9LG/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "slateblue";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go to a concert with some friends") {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/l4FsoQbfD0J53F8Xe/giphy.gif)";
     display.style.backgroundColor = "white";
     display.style.borderColor = "antiquewhite";
     hero.style.color = "antiquewhite";
     hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
+  } else if (display.innerText === "Bake pastries for you and your neighbor") {
+    backGround.style.backgroundImage =
+      "url(https://data.whicdn.com/images/254174499/original.gif)";
     display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
-    hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
-    display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
-    hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
-    display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
-    hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
-    display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
-    hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
-    display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
-    hero.style.borderColor = "white";
-  } else if (display.innerText === "") {
-    backGround.style.backgroundImage = "url()";
-    display.style.backgroundColor = "white";
-    display.style.borderColor = "antiquewhite";
-    hero.style.color = "antiquewhite";
+    display.style.borderColor = "sienna";
+    hero.style.color = "sienna";
     hero.style.borderColor = "white";
   } else if (display.innerText === "Go to a local thrift shop") {
     backGround.style.backgroundImage =
@@ -574,66 +581,378 @@ button.addEventListener("click", async () => {
     display.style.borderColor = "antiquewhite";
     hero.style.color = "antiquewhite";
     hero.style.borderColor = "white";
-  }
-
-  //
-  //
-  // Bake pastries for you and your neighbor https://data.whicdn.com/images/254174499/original.gif
-  // Go to a concert with some friends https://media2.giphy.com/media/l4FsoQbfD0J53F8Xe/giphy.gif
-  // Repaint a room in your house  https://media.giphy.com/media/B3V78HyP1I9LG/giphy.gif
-  // Learn GraphQL  https://thumbs.gfycat.com/ImpoliteMediumLamprey-size_restricted.gif
-  // Try a food you don't like https://i.pinimg.com/originals/f1/77/1c/f1771caa87433884a4a8d38fc89ccccd.gif
-  // Go to the gym https://media2.giphy.com/media/27IUDmKCXgLZoUNaXQ/giphy.gif
-  // Learn woodworking  https://blogs.ou.edu/webcomm/files/2015/09/tumblr_n7bk0vKVyG1s2wio8o1_500-28qpayu.gif
-  // Volunteer at a local animal shelter https://mymodernmet.com/wp/wp-content/uploads/archive/foC98yIgXngXh9sHdyAy_DogTales2.gif
-  // Have a photo session with some friends https://media1.tenor.com/images/22b5e16c497c0168ae9ec9b69c332b45/tenor.gif?itemid=8825199
-  // Watch a movie you'd never usually watch https://media0.giphy.com/media/3o6Zt5GUN6iSe6aSys/giphy.gif
-  // Go see a Broadway production https://media3.giphy.com/media/fc20t5z9JSyxW/source.gif
-  // Start a collection https://theundefeated.com/wp-content/uploads/2018/08/lwp-47210_27501390-lede.gif?w=3000?w=1240?w=145&quality=80
-  // Create or update your resume  https://media2.giphy.com/media/xUA7b2sy5apYCfqhk4/giphy.gif
-  // Cook something together with someone https://media.giphy.com/media/nm6p1Y746PmjHkctaR/giphy.gif
-  // Go see a movie in theaters with a few friends  https://media3.giphy.com/media/3o6ZsTRpiosAcmSias/giphy.gif
-  // Meditate for five minutes https://media.giphy.com/media/H7kfFDvD9HSYGRbvid/giphy.gif
-  // Explore the nightlife of your city https://media0.giphy.com/media/zShmy78cZNh1S/source.gif
-  // Learn how to french braid hair  https://45.media.tumblr.com/tumblr_m0jc48A2dn1qfmgjeo2_500.gif
-  // Take a bubble bath https://24.media.tumblr.com/tumblr_ma4aua0ajs1qgf1i8o1_500.gif
-  // Pull a harmless prank on one of your friends https://media2.giphy.com/media/N0quj3oPVqSKA/source.gif
-  // Start a daily journal https://media2.giphy.com/media/8e65kx6dqTjyM/giphy.gif
-  // Hold a yard sale https://media.tenor.com/images/9ebfcbcdd05bbee7569825d4ff5bce53/tenor.gif
-  // Volunteer at your local food pantry https://media.giphy.com/media/l4EpgA5SvB4j3dStW/giphy.gif
-  // Learn how to write in shorthand https://www.shorthand.mkz.com/Carol001.gif
-  // Make tie dye shirts https://thumbs.gfycat.com/UnsungGiantHornshark-small.gif
-  // Learn to sew on a button https://www.thejohnsonprojects.com/wp-content/uploads/2018/03/button-part-1.gif
-  // Learn how to use an Arduino https://thumbs.gfycat.com/WillingDishonestCirriped-small.gif
-  // Take a class at your local community center that interests you https://media.giphy.com/media/26uf49cYFyZWsPZbW/giphy.gif
-  // Pick up litter around your favorite park https://2.bp.blogspot.com/-xbIUYwE7KFI/VNBoT-J1ZPI/AAAAAAAABwY/vMMKL2l9BAk/s1600/Cool%2BDudes%2BPicking%2BUp%2BTrash.gif
-  // Binge watch a trending series https://media1.giphy.com/media/xUySTFn3fScCUa7Gec/giphy.gif
-  // Go to the library and find an interesting book https://media2.giphy.com/media/128MHrlrHNwwU0/giphy.gif
-  // Learn how to use a french press https://24.media.tumblr.com/11a1be4de6d7d7f82f82351593e567ac/tumblr_msbftyO7zA1sfyf8ho1_1280.gif
-  // Volunteer and help out at a senior center https://img.buzzfeed.com/buzzfeed-static/static/2018-12/18/6/asset/buzzfeed-prod-web-03/anigif_sub-buzz-3433-1545132036-1.gif
-  // Start a blog for something you're passionate about https://thumbs.gfycat.com/AptFirstHartebeest-size_restricted.gif
-  // Wash your car https://media3.giphy.com/media/3ohk2jmb4Ihate05nq/giphy.gif
-  // Surprise your significant other with something considerate https://media1.giphy.com/media/ftSewueyohr0d4INOm/giphy.gif
-  // Have a jam session with your friends https://media3.giphy.com/media/l0HlVZSyxqzqSw4gM/giphy.gif
-  // Go swimming with a friend https://media.giphy.com/media/xT1Ra2tx5CuXU7Hik8/giphy.gif
-  // Go on a fishing trip with some friends https://www.bigmarlinpuntacana.com/wp-content/uploads/2016/10/giphy.gif
-  // Start a garden https://media3.giphy.com/media/OqJjcc1EB1zdoa2tMN/giphy.gif
-  // Come up with some business ideas https://i.imgur.com/KLIDBMl.gif
-  // Think of a new business idea https://media.giphy.com/media/26FlsXbeMANdBgjy8/giphy.gif
-  // Learn how the internet works https://media1.giphy.com/media/3o7H56TgZkKOwqSjlK/giphy.gif
-  // Play basketball with a group of friends  https://66.media.tumblr.com/4cc094afd869011d90e89c0c2b298d3a/tumblr_n1f34dSlOd1s3gys4o1_400.gifv
-  // Fix something that's broken in your house https://media.giphy.com/media/3o7btY356cSVYzmFS8/giphy.gif
-  // Learn how to fold a paper crane https://media1.giphy.com/media/GOGWAl3JzmsLe/giphy.gif
-  // Draw and color a Mandala https://i.gifer.com/7QNa.gif
-  // Go to a concert with local artists with some friends https://thumbs.gfycat.com/RipeAdvancedIndianpangolin-size_restricted.gif
-  // Go for a run https://media1.tenor.com/images/a37b26d448b046f009b34ec49cbaa25c/tenor.gif?itemid=11751318
-  // Bake a pie with some friends https://media1.giphy.com/media/10EVeleaeHv7mo/source.gif
-  // Learn to greet someone in a new language https://media.giphy.com/media/fOtA9hO1bNmaQ/giphy.gif
-  // Make a scrapbook with pictures of your favorite memories https://media2.giphy.com/media/kDcgHzspFeJs4/giphy.gif
-  // Go stargazing https://cdn.lowgif.com/full/5e780fe7492a581c-starry-starry-night-gif-tumblr.gif
-  // Clean out your closet and donate the clothes you've outgrown https://assets.vogue.com/photos/589127a27edfa70512d62825/master/pass/square-300.gif
-  // Catch up with a friend over a lunch date https://www.americangrit.com/wp-content/uploads/2017/02/dinner-date-gif.gif
-  else {
+  } else if (display.innerText === "Meditate for five minutes") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/H7kfFDvD9HSYGRbvid/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Go see a movie in theaters with a few friends"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media3.giphy.com/media/3o6ZsTRpiosAcmSias/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Cook something together with someone") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/nm6p1Y746PmjHkctaR/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Create or update your resume") {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/xUA7b2sy5apYCfqhk4/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Start a collection") {
+    backGround.style.backgroundImage =
+      "url(https://theundefeated.com/wp-content/uploads/2018/08/lwp-47210_27501390-lede.gif?w=3000?w=1240?w=145&quality=80)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go see a Broadway production") {
+    backGround.style.backgroundImage =
+      "url(https://media3.giphy.com/media/fc20t5z9JSyxW/source.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Watch a movie you'd never usually watch") {
+    backGround.style.backgroundImage =
+      "url(https://media0.giphy.com/media/3o6Zt5GUN6iSe6aSys/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Have a photo session with some friends") {
+    backGround.style.backgroundImage =
+      "url(https://media1.tenor.com/images/22b5e16c497c0168ae9ec9b69c332b45/tenor.gif?itemid=8825199)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Volunteer and help out at a senior center"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://img.buzzfeed.com/buzzfeed-static/static/2018-12/18/6/asset/buzzfeed-prod-web-03/anigif_sub-buzz-3433-1545132036-1.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "yellow";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how to use a french press") {
+    backGround.style.backgroundImage =
+      "url(https://24.media.tumblr.com/11a1be4de6d7d7f82f82351593e567ac/tumblr_msbftyO7zA1sfyf8ho1_1280.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Go to the library and find an interesting book"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/128MHrlrHNwwU0/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Binge watch a trending series") {
+    backGround.style.backgroundImage =
+      "url( https://media1.giphy.com/media/xUySTFn3fScCUa7Gec/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Pick up litter around your favorite park") {
+    backGround.style.backgroundImage =
+      "url(https://2.bp.blogspot.com/-xbIUYwE7KFI/VNBoT-J1ZPI/AAAAAAAABwY/vMMKL2l9BAk/s1600/Cool%2BDudes%2BPicking%2BUp%2BTrash.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText ===
+    "Take a class at your local community center that interests you"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/26uf49cYFyZWsPZbW/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how to use an Arduino") {
+    backGround.style.backgroundImage =
+      "url(https://thumbs.gfycat.com/WillingDishonestCirriped-small.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn to sew on a button") {
+    backGround.style.backgroundImage =
+      "url(https://www.thejohnsonprojects.com/wp-content/uploads/2018/03/button-part-1.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "red";
+    hero.style.color = "red";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Make tie dye shirts") {
+    backGround.style.backgroundImage =
+      "url(https://thumbs.gfycat.com/UnsungGiantHornshark-small.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how to write in shorthand") {
+    backGround.style.backgroundImage =
+      "url(https://www.shorthand.mkz.com/Carol001.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "black";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Volunteer at your local food pantry") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/l4EpgA5SvB4j3dStW/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Hold a yard sale") {
+    backGround.style.backgroundImage =
+      "url(https://media.tenor.com/images/9ebfcbcdd05bbee7569825d4ff5bce53/tenor.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Start a daily journal") {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/8e65kx6dqTjyM/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Pull a harmless prank on one of your friends"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/N0quj3oPVqSKA/source.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Take a bubble bath") {
+    backGround.style.backgroundImage =
+      "url(https://24.media.tumblr.com/tumblr_ma4aua0ajs1qgf1i8o1_500.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how to french braid hair") {
+    backGround.style.backgroundImage =
+      "url(https://45.media.tumblr.com/tumblr_m0jc48A2dn1qfmgjeo2_500.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "brown";
+    hero.style.color = "brown";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Explore the nightlife of your city") {
+    backGround.style.backgroundImage =
+      "url(https://media0.giphy.com/media/zShmy78cZNh1S/source.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Start a garden") {
+    backGround.style.backgroundImage =
+      "url(https://media3.giphy.com/media/OqJjcc1EB1zdoa2tMN/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go on a fishing trip with some friends") {
+    backGround.style.backgroundImage =
+      "url(https://www.bigmarlinpuntacana.com/wp-content/uploads/2016/10/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go swimming with a friend") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/xT1Ra2tx5CuXU7Hik8/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Have a jam session with your friends") {
+    backGround.style.backgroundImage =
+      "url(https://media3.giphy.com/media/l0HlVZSyxqzqSw4gM/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText ===
+    "Surprise your significant other with something considerate"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media1.giphy.com/media/ftSewueyohr0d4INOm/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Wash your car") {
+    backGround.style.backgroundImage =
+      "url(https://media3.giphy.com/media/3ohk2jmb4Ihate05nq/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Start a blog for something you're passionate about"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://thumbs.gfycat.com/AptFirstHartebeest-size_restricted.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "lightgray";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go for a run") {
+    backGround.style.backgroundImage =
+      "url(https://media1.tenor.com/images/a37b26d448b046f009b34ec49cbaa25c/tenor.gif?itemid=11751318)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Go to a concert with local artists with some friends"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://thumbs.gfycat.com/RipeAdvancedIndianpangolin-size_restricted.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Draw and color a Mandala") {
+    backGround.style.backgroundImage = "url(https://i.gifer.com/7QNa.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "black";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how to fold a paper crane") {
+    backGround.style.backgroundImage =
+      "url(https://media1.giphy.com/media/GOGWAl3JzmsLe/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "lightslategray";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText === "Fix something that's broken in your house"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/3o7btY356cSVYzmFS8/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Play basketball with a group of friends") {
+    backGround.style.backgroundImage =
+      "url(https://66.media.tumblr.com/4cc094afd869011d90e89c0c2b298d3a/tumblr_n1f34dSlOd1s3gys4o1_400.gifv)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn how the internet works") {
+    backGround.style.backgroundImage =
+      "url(https://media1.giphy.com/media/3o7H56TgZkKOwqSjlK/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Think of a new business idea") {
+    backGround.style.backgroundImage = "url(https://i.imgur.com/KLIDBMl.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "white";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Come up with some business ideas") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/26FlsXbeMANdBgjy8/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "black";
+    hero.style.borderColor = "white";
+  } else if (
+    display.innerText ===
+    "Clean out your closet and donate the clothes you've outgrown"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://assets.vogue.com/photos/589127a27edfa70512d62825/master/pass/square-300.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "hotpink";
+    hero.style.color = "hotpink";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Catch up with a friend over a lunch date") {
+    backGround.style.backgroundImage =
+      "url(https://www.americangrit.com/wp-content/uploads/2017/02/dinner-date-gif.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Go stargazing") {
+    backGround.style.backgroundImage =
+      "url(https://cdn.lowgif.com/full/5e780fe7492a581c-starry-starry-night-gif-tumblr.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "white";
+    hero.style.borderColor = "antiquewhite";
+  } else if (
+    display.innerText ===
+    "Make a scrapbook with pictures of your favorite memories"
+  ) {
+    backGround.style.backgroundImage =
+      "url(https://media2.giphy.com/media/kDcgHzspFeJs4/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "lightpink";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Learn to greet someone in a new language") {
+    backGround.style.backgroundImage =
+      "url(https://media.giphy.com/media/fOtA9hO1bNmaQ/giphy.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "antiquewhite";
+    hero.style.borderColor = "white";
+  } else if (display.innerText === "Bake a pie with some friends") {
+    backGround.style.backgroundImage =
+      "url(https://media1.giphy.com/media/10EVeleaeHv7mo/source.gif)";
+    display.style.backgroundColor = "white";
+    display.style.borderColor = "antiquewhite";
+    hero.style.color = "red";
+    hero.style.borderColor = "white";
+  } else {
     display.innerText;
   }
 });
+
+// Make a to-do list for your week
+// Plan a vacation you've always wanted to take
+// Make a couch fort
+// Watch a classic movie
+// Learn how to make a website
+// Rearrange and organize your room
+// Donate blood at a local blood center
+// Learn how to make an Alexa skill
+// Have a picnic with some friends
+// Start a book you've never gotten around to reading
+// Make a bucket list
+// Make homemade ice cream
+// Watch the sunset or the sunrise
+// Learn Javascript
+// Learn origami
+// Make a new friend
+// Create a personal website
