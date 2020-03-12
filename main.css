@@ -260,3 +260,41 @@ footer {
   border-radius: 2px;
   text-align: center;
 }
+
+@media only screen and (max-width: 1100px) {
+  .antenna {
+    height: 30px;
+    width: 48%;
+    margin: -3em 0em 0 5.75em;
+  }
+
+  .headtop {
+    margin: -20% 35% -10% 26.5%;
+  }
+
+  #head {
+    margin: 0 auto;
+  }
+
+  .robot_body {
+    padding: 10px 0px;
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 15em;
+    width: 20em;
+  }
+  .foot {
+    padding: 3em;
+    margin: -4em 7em 0 7em;
+  }
+
+  .inner_foot {
+    margin-top: -1.5em;
+    margin-right: -1em;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    border: 5px solid gray;
+    background: radial-gradient(lightslategray, darkgray);
+  }
+}
