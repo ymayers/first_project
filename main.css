@@ -48,31 +48,32 @@ button:hover {
   position: relative;
   border: 8px solid oldlace;
   border-bottom: 12px double oldlace;
-  margin: 1em 4em 0 4em;
+  margin: 1em 4em 0em 4em;
   display: flex;
   flex-flow: column;
   height: 25%;
   width: 50%;
-  padding-top: 6em;
+  padding-top: 2em;
 }
 
 /* ROBOT'S HEAD */
 
 /* these are really his ears - need to change name */
 .antenna {
+  position: relative;
   border-left: 10px groove silver;
   border-right: 10px groove silver;
-  height: 40px;
-  width: 25.5%;
-  margin: -1em 10em 0 15em;
+  height: 2em;
+  width: 11.5em;
+  margin: 2em 4em 0 -0.75em;
   border-radius: 7px;
 }
 
 .headtop {
-  margin: -15% 0 -5% 35%;
+  margin: -1.75em -0.75em -1em -0.75em;
   padding-top: 1em;
   background: radial-gradient(lightgray, slategray);
-  height: 3em;
+  height: 1.5em;
   width: 11em;
   border-radius: 100%;
   border: 3px solid darkgray;
@@ -82,7 +83,7 @@ button:hover {
 
 #head {
   padding: 0 10px 10px 10px;
-  margin: 0 0 0.15% 35%;
+  margin: 0 auto;
   background: linear-gradient(
     to left,
     lightslategray 5%,
@@ -141,7 +142,7 @@ button:hover {
 
 .robot_body {
   padding: 10px 0px;
-  margin: 0 11.5em 0 11.5em;
+  margin: 0 auto;
   border-radius: 30px;
   border: 3px solid darkgray;
   height: 15em;
@@ -196,7 +197,7 @@ button:hover {
 
 .foot {
   padding: 3em;
-  margin: -4em 16em 0 16em;
+  margin: -6em 5em 4em 5em;
   width: 4em;
   height: 2em;
   border-radius: 100%;
@@ -205,6 +206,7 @@ button:hover {
 }
 
 .inner_foot {
+  position: relative;
   margin-top: -1.5em;
   margin-right: -1em;
   width: 4em;
@@ -224,7 +226,7 @@ button:hover {
   background: #fea300;
   height: 100%;
   width: 90%;
-  margin: 1em 10em 0 10em;
+  margin: 3em 10em 0 10em;
   border: 4px solid slategray;
   border-radius: 6px;
   text-align: center;
@@ -259,42 +261,4 @@ footer {
   border: 2.5px solid slategray;
   border-radius: 2px;
   text-align: center;
-}
-
-@media only screen and (max-width: 1100px) {
-  .antenna {
-    height: 30px;
-    width: 48%;
-    margin: -3em 0em 0 5.75em;
-  }
-
-  .headtop {
-    margin: -20% 35% -10% 26.5%;
-  }
-
-  #head {
-    margin: 0 auto;
-  }
-
-  .robot_body {
-    padding: 10px 0px;
-    margin: 0 auto;
-    border-radius: 30px;
-    height: 15em;
-    width: 20em;
-  }
-  .foot {
-    padding: 3em;
-    margin: -4em 7em 0 7em;
-  }
-
-  .inner_foot {
-    margin-top: -1.5em;
-    margin-right: -1em;
-    width: 4em;
-    height: 4em;
-    border-radius: 100%;
-    border: 5px solid gray;
-    background: radial-gradient(lightslategray, darkgray);
-  }
 }
