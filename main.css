@@ -11,11 +11,14 @@ body {
 /* HERO HEADER */
 
 h1 {
-  color: rgb(168, 184, 184);
-  border: 15px solid white;
-  border-bottom: 15px double white;
+  color: silver;
+  border: 16px solid white;
+  border-bottom: 16px double white;
   border-right: none;
+  border-left: none;
   font-size: 5em;
+  text-shadow: 6px 3px 8px black;
+  box-shadow: 0 10px 16px 0 slategray inset, 0 10px 20px 0 black;
   padding: 0.1em;
   font-family: "Permanent Marker", cursive;
   height: 8%;
@@ -32,21 +35,28 @@ button {
   font-family: "Inconsolata", monospace;
   font-size: 1em;
   color: antiquewhite;
+  text-shadow: 2px 2px 4px darkorange;
+  box-shadow: 0 6px 6px 0 blanchedalmond inset;
   background: radial-gradient(lightgray, darkslategray);
-  border: 4px groove lightslategray;
+  border: 4px solid lightslategray;
   margin: 30%;
   border-radius: 20px;
+  text-indent: 2px;
 }
 button:hover {
   color: darkorange;
   cursor: pointer;
-  border: 3px groove white;
+  border: 4px solid transparent;
+  box-shadow: 0 6px 6px 0 darkslategray;
+  text-shadow: 4px 4px 8px darkcyan inset;
+  text-indent: 6px;
 }
 
 /* CONTAINER FOR ROBOT */
 
 .robot {
   position: relative;
+  box-shadow: 0 16px 32px 0 black inset, 2px 10px 20px 2px blanchedalmond;
   border: 8px solid oldlace;
   border-bottom: 12px double oldlace;
   margin: 1em 4em 0em 4em;
@@ -73,6 +83,7 @@ button:hover {
 .headtop {
   margin: -1.75em -0.75em -1em -0.75em;
   padding-top: 1em;
+  box-shadow: 0px 0px 6px 1px black, 0 3px 6px 0 blanchedalmond inset;
   background: radial-gradient(lightgray, slategray);
   height: 1.5em;
   width: 11em;
@@ -85,6 +96,7 @@ button:hover {
 #head {
   padding: 0 10px 10px 10px;
   margin: 0 auto;
+  box-shadow: 0 6px 12px 0 black, 0 5px 10px 0 whitesmoke inset;
   background: linear-gradient(
     to left,
     lightslategray 5%,
@@ -103,6 +115,7 @@ button:hover {
   padding: 5px;
   height: 40%;
   border-radius: 100%;
+  box-shadow: 0 3px 6px 0 darkslategray;
   border: 6px solid lightgray;
   background: white;
 }
@@ -115,26 +128,30 @@ button:hover {
   border: 4px solid lightslategray;
   background: radial-gradient(red, white);
 }
+
 .pupil:hover {
-  background: radial-gradient(white, red);
+  background: yellow;
 }
+
 .mouth {
   margin: 0 8em 0em 4em;
   width: 1.25em;
   padding: 4px;
   height: 15%;
+  box-shadow: 0 12px 12px 4px darkslategray;
   border-radius: 3px;
   border: 5px solid lightslategray;
   background: darkgray;
 }
 
 .teeth {
-  margin: 0.5em 0 0 -0.25em;
+  margin: 0.25em 0 0 -0.25em;
   width: 1.5em;
   height: 10%;
+  box-shadow: 1px 12px 12px 1px black;
   border-radius: 3px;
-  border: 2px solid red;
-  background: whitesmoke;
+  border: 2px solid indianred;
+  background: white;
 }
 
 /******************/
@@ -146,6 +163,7 @@ button:hover {
   margin: 0 auto;
   border-radius: 30px;
   border: 3px solid darkgray;
+  box-shadow: 0 6px 12px 0 black, 0 3px 6px 0 whitesmoke inset;
   height: 15em;
   width: 20em;
   background: linear-gradient(lightslategray, slategray, lightgray);
@@ -155,6 +173,7 @@ button:hover {
   margin: -15em 0em 13em 0em;
   border: 4px double #f2ae30;
   border-left: none;
+  box-shadow: 0 3px 6px 0 whitesmoke inset, 0 1px 2px 0 black;
   background: transparent;
   width: 5em;
   height: 2em;
@@ -175,6 +194,7 @@ button:hover {
 .r_arm {
   margin: -15em 0 13em 15em;
   border: 4px double #f2ae30;
+  box-shadow: 0 3px 6px 0 whitesmoke inset, 0 1px 2px 0 black;
   border-right: none;
   background: transparent;
   width: 5em;
@@ -203,6 +223,7 @@ button:hover {
   height: 2em;
   border-radius: 100%;
   border: 5px dashed darkgray;
+  box-shadow: 0 12px 24px 0 black;
   background: silver;
 }
 
@@ -212,6 +233,7 @@ button:hover {
   margin-right: -1em;
   width: 4em;
   height: 4em;
+  box-shadow: 0 4px 8px 0 black inset;
   border-radius: 100%;
   border: 5px solid gray;
   background: radial-gradient(lightslategray, darkgray);
@@ -224,11 +246,13 @@ button:hover {
 .display {
   font-family: "Nanum Pen Script", cursive;
   font-size: 45px;
-  background: #fea300;
+  text-shadow: 3px 3px 8px darkslategray;
+  box-shadow: 0 2px 4px 0 lightslategray, 0 5px 10px 0 black inset;
+  background: blanchedalmond;
   height: 100%;
   width: 90%;
   margin: 3em 10em 0 10em;
-  border: 4px solid slategray;
+  border: 4px solid transparent;
   border-radius: 6px;
   text-align: center;
 }
@@ -241,11 +265,12 @@ button:hover {
   padding: 0.1em;
   font-family: "Nanum Pen Script", cursive;
   font-size: 30px;
-  background: #fea300;
+  box-shadow: 0 2px 4px 0 lightslategray, 0 2.5px 5px 0 black inset;
+  background: blanchedalmond;
   height: 20%;
   width: 6%;
   margin: 0 40em 6em 40em;
-  border: 6px dashed slategray;
+  border: 6px solid transparent;
   border-radius: 100%;
   text-align: center;
 }
@@ -255,34 +280,45 @@ footer {
   font-size: 1em;
   padding: 0.5em;
   font-family: "Permanent Marker", cursive;
-  background: linear-gradient(lightslategray, white);
+  background: linear-gradient(
+    rgb(66, 32, 63),
+    darkslategray,
+    slategray,
+    lightslategray,
+    silver,
+    blanchedalmond
+  );
   height: 20%;
   width: 100%;
-  margin: 8em 8em 0 8em;
-  border: 2.5px solid slategray;
-  border-radius: 2px;
+  margin: 6em 8em 0 8em;
   text-align: center;
+  text-shadow: 6px 6px 6px darkslategrey;
+  box-shadow: 0 3px 6px 0 blanchedalmond inset, 0 24px 48px 0 black;
 }
-/* for iPhone*/
+
+/* for iPhone Dislay*/
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .robot {
     margin: 0 auto;
+    width: 70%;
   }
   .robot_body {
-    margin: 0 -1em 0 -1em;
+    margin: 0 0.5em 0 0.5em;
     width: 15em;
   }
   .l_hand {
-    margin: 0 0 0 -80px;
+    margin: 0 0 0 -70px;
     padding: 0;
+    width: 1%;
   }
   .r_hand {
     padding: 0;
-    margin: 0 0 0 80px;
+    margin: 0 0 0 73px;
+    width: 1%;
   }
   .r_arm {
-    margin: -240px 0 208px 160px;
+    margin: -248px 0 208px 156px;
   }
   .foot {
     margin: -3em 3em 4em 3em;
@@ -294,5 +330,8 @@ footer {
     margin: -1em -1em 0 -0.75em;
     width: 4em;
     height: 4em;
+  }
+  .price {
+    width: 20%;
   }
 }
